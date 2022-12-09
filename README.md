@@ -29,7 +29,7 @@ npm i @zanminkian/tsconfig
 
 ```json
 {
-  "extends": "@zanminkain/tsconfig"
+  "extends": "@zanminkian/tsconfig"
 }
 ```
 
