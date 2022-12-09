@@ -1,7 +1,11 @@
 {
   "name": "@zanminkian/tsconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Strict shared tsconfig out-of-box",
   "author": "hellozmj@qq.com",
+  "license": "MIT",
+  "homepage": "https://github.com/ZanMinKian/tsconfig",
+  "keywords": ["tsconfig", "strict", "out-of-box"],
   "dependencies": {
     "@tsconfig/node16-strictest": "^1.0.4"
   }
