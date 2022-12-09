@@ -1,5 +1,8 @@
 # @zanminkian/tsconfig
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/@zanminkian%2Ftsconfig.svg)](https://badge.fury.io/js/@zanminkian%2Ftsconfig) 
+
 Strict shared tsconfig out-of-box.
 
 ## Feature
