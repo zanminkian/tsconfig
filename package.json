@@ -1,0 +1,8 @@
+{
+  "name": "@zanminkian/tsconfig",
+  "version": "0.1.0",
+  "author": "hellozmj@qq.com",
+  "dependencies": {
+    "@tsconfig/node16-strictest": "^1.0.4"
+  }
+}
