@@ -22,7 +22,7 @@ Strict shared tsconfig out-of-box.
 ### Install
 
 ```bash
-npm i @zanminkian/tsconfig
+npm i @zanminkian/tsconfig -D
 ```
 
 ### Config `tsconfig.json`
