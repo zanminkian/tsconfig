@@ -35,6 +35,8 @@ npm i @zanminkian/tsconfig -D
 
 ## Best Practices
 
+Here are best practices if you use this package.
+
 ### For single-project-repo
 
 ```
