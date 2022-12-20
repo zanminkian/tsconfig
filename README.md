@@ -53,6 +53,8 @@ Here are the best practices if you use this package.
 
 > `tsconfig.json` works for development (IDE prompt) and test.
 
+Here is the content of `tsconfig.json`.
+
 ```json
 {
   "extends": "@zanminkian/tsconfig"
@@ -62,6 +64,8 @@ Here are the best practices if you use this package.
 #### tsconfig.build.json
 
 > `tsconfig.build.json` works for production build.
+
+Here is the content of `tsconfig.build.json`.
 
 ```json
 {
@@ -96,7 +100,7 @@ Here are the best practices if you use this package.
 └── tsconfig.json
 ```
 
-> Similar to single-project-repo, the root `tsconfig.json` works for development (IDE prompt) and test, while `tsconfig.build.json` in each sub-app works for production build.
+> Similar to single-project-repo, the root `tsconfig.json` works for development (IDE prompt) and test, while `tsconfig.build.json` in each sub-app works for production build. Therefore, the content of `tsconfig.json` and `tsconfig.build.json` are the same as single-project-repo.
 
 ## License
 [MIT](./LICENSE)
