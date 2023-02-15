@@ -5,8 +5,15 @@
   "author": "hellozmj@qq.com",
   "license": "MIT",
   "homepage": "https://github.com/ZanMinKian/tsconfig",
-  "keywords": ["tsconfig", "strict", "out-of-box"],
+  "keywords": [
+    "tsconfig",
+    "strict",
+    "out-of-box"
+  ],
   "dependencies": {
     "@tsconfig/node16-strictest": "^1.0.4"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0"
   }
 }
