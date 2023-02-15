@@ -1,7 +1,7 @@
 # @zanminkian/tsconfig
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/@zanminkian%2Ftsconfig.svg)](https://badge.fury.io/js/@zanminkian%2Ftsconfig) 
+[![npm version](https://badge.fury.io/js/@zanminkian%2Ftsconfig.svg)](https://badge.fury.io/js/@zanminkian%2Ftsconfig)
 
 Strict shared tsconfig out-of-box.
 
@@ -45,31 +45,14 @@ Here are the best practices if you use this package.
 ├── test
 │   └── index.spec.ts
 ├── package.json
-├── tsconfig.build.json
 └── tsconfig.json
 ```
 
 #### tsconfig.json
 
-> `tsconfig.json` works for development (IDE prompt) and test.
-
-Here is the content of `tsconfig.json`.
-
 ```json
 {
-  "extends": "@zanminkian/tsconfig"
-}
-```
-
-#### tsconfig.build.json
-
-> `tsconfig.build.json` works for production build.
-
-Here is the content of `tsconfig.build.json`.
-
-```json
-{
-  "extends": "./tsconfig.json",
+  "extends": "@zanminkian/tsconfig",
   "include": ["src"],
   "exclude": ["**/*.spec.ts"],
   "compilerOptions": {
@@ -88,19 +71,38 @@ Here is the content of `tsconfig.build.json`.
 │   │   ├── test
 │   │   │   └── main.spec.ts
 │   │   ├── package.json
-│   │   └── tsconfig.build.json
+│   │   └── tsconfig.json
 │   └── app2
 │       ├── src
 │       │   └── main.ts
 │       ├── test
 │       │   └── main.spec.ts
 │       ├── package.json
-│       └── tsconfig.build.json
+│       └── tsconfig.json
 ├── package.json
 └── tsconfig.json
 ```
 
-> Similar to single-project-repo, the root `tsconfig.json` works for development (IDE prompt) and test, while `tsconfig.build.json` in each sub-app works for production build. Therefore, the content of `tsconfig.json` and `tsconfig.build.json` are the same as single-project-repo.
+#### tsconfig.json in the root of project
+
+```json
+{
+  "extends": "@zanminkian/tsconfig"
+}
+```
+
+#### tsconfig.json in each app
+
+```json
+{
+  "extends": "../../tsconfig",
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts"],
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
+```
 
 ## License
 [MIT](./LICENSE)
