@@ -7,7 +7,7 @@ Strict shared tsconfig out-of-box.
 
 ## Feature
 
-- Strict.
+- Strictest.
 - Best practice.
 - One-line of tsconfig.
 - Support FE (eg: [React](https://github.com/facebook/react)) & BE (eg: [Nest](https://github.com/nestjs/nest)) project.
@@ -35,9 +35,9 @@ npm i @zanminkian/tsconfig -D
 
 ## Best Practices
 
-Here are the best practices if you use this package.
+Here are the best practices if you are using this package.
 
-### For single-project-repo
+### For polyrepo
 
 ```
 ├── src
