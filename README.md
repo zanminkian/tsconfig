@@ -1,7 +1,8 @@
 # @zanminkian/tsconfig
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/@zanminkian%2Ftsconfig.svg)](https://badge.fury.io/js/@zanminkian%2Ftsconfig)
+[![](https://img.shields.io/npm/l/@zanminkian/tsconfig.svg)](https://github.com/zanminkian/tsconfig/blob/master/LICENSE)
+[![](https://img.shields.io/npm/v/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
+[![](https://img.shields.io/npm/dm/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 
 Strict shared tsconfig out-of-box.
 
@@ -105,4 +106,4 @@ Here are the best practices if you are using this package.
 ```
 
 ## License
-[MIT](./LICENSE)
+MIT

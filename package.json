@@ -1,7 +1,7 @@
 {
   "name": "@zanminkian/tsconfig",
   "version": "0.2.0",
-  "description": "Strict shared tsconfig out-of-box",
+  "description": "Strict shared tsconfig out-of-box.",
   "author": "hellozmj@qq.com",
   "license": "MIT",
   "homepage": "https://github.com/ZanMinKian/tsconfig",
