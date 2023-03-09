@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.2.1
+
+### Patch Changes
+
+- 53a5b4b: docs: update README
+
 ## 0.2.0
 
 ### Minor Changes
