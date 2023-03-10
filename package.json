@@ -8,7 +8,11 @@
   "keywords": [
     "tsconfig",
     "strict",
-    "out-of-box"
+    "out-of-box",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
   ],
   "dependencies": {
     "@tsconfig/node16-strictest": "^1.0.4"
