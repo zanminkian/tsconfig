@@ -1,5 +1,12 @@
 # @zanminkian/tsconfig
 
+## 0.2.2
+
+### Patch Changes
+
+- 1ae0e3c: docs: add badge
+- b468b54: chore: add keywords
+
 ## 0.2.1
 
 ### Patch Changes
