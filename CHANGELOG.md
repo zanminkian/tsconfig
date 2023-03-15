@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.2.3
+
+### Patch Changes
+
+- 3258d92: docs: add badge
+
 ## 0.2.2
 
 ### Patch Changes
