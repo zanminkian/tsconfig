@@ -13,6 +13,7 @@ Strict shared tsconfig out-of-box.
 - Strictest configs with best practices.
 - One-line of tsconfig.
 - Support `Typescript 5.0`.
+- Support `ESM` and `CommonJS` by `type` field in `package.json`.
 - Support FE (eg: [React](https://github.com/facebook/react)) & BE (eg: [Nest](https://github.com/nestjs/nest)) project.
 
 ## Requirement
