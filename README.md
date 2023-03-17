@@ -10,9 +10,9 @@ Strict shared tsconfig out-of-box.
 
 ## Feature
 
-- Strictest.
-- Best practice.
+- Strictest configs with best practices.
 - One-line of tsconfig.
+- Support `Typescript 5.0`.
 - Support FE (eg: [React](https://github.com/facebook/react)) & BE (eg: [Nest](https://github.com/nestjs/nest)) project.
 
 ## Requirement

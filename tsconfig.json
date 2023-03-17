@@ -1,6 +1,29 @@
 {
-  "extends": "@tsconfig/node16-strictest/tsconfig.json",
   "compilerOptions": {
+    // copied from `@tsconfig/node16-strictest`
+    "lib": [
+      "es2021"
+    ],
+    "module": "commonjs",
+    "target": "es2021",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "importsNotUsedAsValues": "error", // Remove it to support ts 5.0
+    "checkJs": true,
+
     /**
     * 1. Typescript will include APIs for newer JS features matching the `target`. See https://www.typescriptlang.org/tsconfig#lib. Therefore, there is no need to add "ESNext" to lib.
     * 2. In ts 4.5, lib files can be overrode by npm modules. See https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#supporting-lib-from-node_modules. Therefore, libs like "DOM" can be included by installing `@types/web`. No need to add "DOM" to lib.
