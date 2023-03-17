@@ -1,5 +1,12 @@
 # @zanminkian/tsconfig
 
+## 0.3.0
+
+### Minor Changes
+
+- 55311d1: feat: emit esm or commonjs by project type rather than specifying commonjs only
+- 96e90f4: feat: remove `importsNotUsedAsValues` to support ts 5.0
+
 ## 0.2.3
 
 ### Patch Changes
