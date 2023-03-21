@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.3.1
+
+### Patch Changes
+
+- d7765eb: feat: support generating command
+
 ## 0.3.0
 
 ### Minor Changes
