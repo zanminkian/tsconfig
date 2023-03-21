@@ -1,0 +1,24 @@
+{
+  "name": "@zanminkian/tsconfig",
+  "type": "module",
+  "version": "0.3.1",
+  "description": "Strict shared tsconfig out-of-box.",
+  "author": "hellozmj@qq.com",
+  "license": "MIT",
+  "homepage": "https://github.com/ZanMinKian/tsconfig",
+  "keywords": [
+    "tsconfig",
+    "strict",
+    "out-of-box",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "bin": {
+    "tsconfig": "./bin/tsconfig.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}

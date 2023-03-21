@@ -1,28 +1,15 @@
 {
-  "name": "@zanminkian/tsconfig",
-  "type": "module",
-  "version": "0.3.1",
-  "description": "Strict shared tsconfig out-of-box.",
-  "author": "hellozmj@qq.com",
-  "license": "MIT",
-  "homepage": "https://github.com/ZanMinKian/tsconfig",
-  "keywords": [
-    "tsconfig",
-    "strict",
-    "out-of-box",
-    "typescript",
-    "ts",
-    "config",
-    "configuration"
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
-  "bin": {
-    "tsconfig": "./bin/tsconfig.js"
+  "packageManager": "pnpm@7.5.2",
+  "engines": {
+    "pnpm": "^7.0.0",
+    "node": ">=16.0.0"
   },
   "scripts": {
     "postinstall": "git-hooks install"
-  },
-  "dependencies": {
-    "commander": "^10.0.0"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
