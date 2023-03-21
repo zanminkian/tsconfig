@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.3.2
+
+### Patch Changes
+
+- 84d6e3a: refactor(tsconfig): move tsconfig to monorepo
+
 ## 0.3.1
 
 ### Patch Changes
