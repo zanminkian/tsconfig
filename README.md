@@ -108,5 +108,20 @@ Here are the best practices if you are using this package.
 }
 ```
 
+## Commands
+
+After installing `@zanminkian/tsconfig`, you can run `npx tsconfig g` command to generate a `tsconfig` file. Run `npx tsconfig g -h` for more detail of the command:
+
+```txt
+Usage: tsconfig generate|g [options]
+
+generate a tsconfig file
+
+Options:
+  -t, --to <path>        directory that generating to (default: ".")
+  -n, --name <filename>  tsconfig file name (default: "tsconfig.json")
+  -h, --help             display help for command
+```
+
 ## License
 MIT

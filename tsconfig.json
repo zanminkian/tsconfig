@@ -42,7 +42,7 @@
     // "outDir": "dist",
     "inlineSourceMap": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "preserve"
     /**
      * TODO: Disable it because of the conflict with `@antfu/eslint-config`. Remove it if https://github.com/antfu/eslint-config/pull/145 has been accepted.
      */
