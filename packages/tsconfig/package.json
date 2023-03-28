@@ -5,7 +5,7 @@
   "description": "Strict shared tsconfig out-of-box.",
   "author": "hellozmj@qq.com",
   "license": "MIT",
-  "homepage": "https://github.com/ZanMinKian/tsconfig",
+  "homepage": "https://github.com/zanminkian/tsconfig",
   "keywords": [
     "tsconfig",
     "strict",
