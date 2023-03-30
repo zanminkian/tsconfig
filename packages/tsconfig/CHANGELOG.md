@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.4.1
+
+### Patch Changes
+
+- d2dc46b: docs: update README
+
 ## 0.4.0
 
 ### Minor Changes
