@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.4.0
+
+### Minor Changes
+
+- a4f5f22: feat: rename `generate` to `init`
+
 ## 0.3.2
 
 ### Patch Changes
