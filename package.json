@@ -12,8 +12,9 @@
     "postinstall": "git-hooks install"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
-    "@types/node": "^18.15.5",
-    "@zanminkian/git-hooks": "^0.2.0"
+    "@changesets/cli": "^2.26.1",
+    "@types/node": "^18.15.11",
+    "@zanminkian/git-hooks": "^0.2.1",
+    "typescript": "^5.0.2"
   }
 }
