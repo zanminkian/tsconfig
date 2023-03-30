@@ -110,12 +110,12 @@ Here are the best practices if you are using this package.
 
 ## Commands
 
-After installing `@zanminkian/tsconfig`, you can run `npx tsconfig g` command to generate a `tsconfig` file. Run `npx tsconfig g -h` for more detail of the command:
+After installing `@zanminkian/tsconfig`, you can run `npx tsconfig init` command to generate a `tsconfig.json` file. Run `npx tsconfig init -h` for more detail of the command:
 
 ```txt
-Usage: tsconfig generate|g [options]
+Usage: tsconfig init [options]
 
-generate a tsconfig file
+init a tsconfig file
 
 Options:
   -t, --to <path>        directory that generating to (default: ".")
