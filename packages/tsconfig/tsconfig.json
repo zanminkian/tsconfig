@@ -24,6 +24,7 @@
     // "importsNotUsedAsValues": "error", // Remove it to support ts 5.0
     "checkJs": true,
 
+    "allowSyntheticDefaultImports": true,
     /**
     * 1. Typescript will include APIs for newer JS features matching the `target`. See https://www.typescriptlang.org/tsconfig#lib. Therefore, there is no need to add "ESNext" to lib.
     * 2. In ts 4.5, lib files can be overrode by npm modules. See https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#supporting-lib-from-node_modules. Therefore, libs like "DOM" can be included by installing `@types/web`. No need to add "DOM" to lib.
