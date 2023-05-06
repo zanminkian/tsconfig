@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.4.2
+
+### Patch Changes
+
+- 435fde3: feat(tsconfig): add `allowSyntheticDefaultImports`
+
 ## 0.4.1
 
 ### Patch Changes
