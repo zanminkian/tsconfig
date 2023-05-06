@@ -1,6 +1,6 @@
 # @zanminkian/tsconfig
 
-[![](https://img.shields.io/npm/l/@zanminkian/tsconfig.svg)](https://github.com/zanminkian/tsconfig/blob/master/LICENSE)
+[![](https://img.shields.io/npm/l/@zanminkian/tsconfig.svg)](https://github.com/zanminkian/tsconfig/blob/main/LICENSE)
 [![](https://img.shields.io/npm/v/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 [![](https://img.shields.io/npm/dm/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 [![](https://img.shields.io/librariesio/release/npm/@zanminkian/tsconfig)](https://www.npmjs.com/package/@zanminkian/tsconfig)
