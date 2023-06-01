@@ -2,10 +2,10 @@
   "compilerOptions": {
     // copied from `@tsconfig/node16-strictest`
     "lib": [
-      "es2021"
+      "ES2022"
     ],
     "module": "Node16",
-    "target": "es2021",
+    "target": "ES2022",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
