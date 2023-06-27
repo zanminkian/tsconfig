@@ -19,6 +19,6 @@
     "tsconfig": "./bin/tsconfig.js"
   },
   "dependencies": {
-    "commander": "^10.0.0"
+    "commander": "^11.0.0"
   }
 }
