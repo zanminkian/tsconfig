@@ -6,7 +6,7 @@ import { Command } from 'commander'
 const generatingTsconfigContent = `{
   "extends": "@zanminkian/tsconfig",
   "include": ["src"],
-  "exclude": ["**/*.spec.ts"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
   "compilerOptions": {
     "outDir": "dist"
   }
