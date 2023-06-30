@@ -1,5 +1,16 @@
 # @zanminkian/tsconfig
 
+## 0.5.0
+
+### Minor Changes
+
+- d63e00a: feat!: make target to `ES2022`
+
+### Patch Changes
+
+- ba62ebb: chore: upgrade deps
+- 0ee066c: feat: add exclusion of `.test.ts` to template
+
 ## 0.4.2
 
 ### Patch Changes
