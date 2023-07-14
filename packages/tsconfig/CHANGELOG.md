@@ -1,5 +1,12 @@
 # @zanminkian/tsconfig
 
+## 0.5.1
+
+### Patch Changes
+
+- 8175f8b: feat: add `tsconfig-esm.json` config file to support esm
+- 65dd90b: refactor: remove `lib`
+
 ## 0.5.0
 
 ### Minor Changes
