@@ -17,7 +17,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.4.8",
-    "@zanminkian/tsconfig": "^0.5.1",
+    "@zanminkian/tsconfig": "workspace:^",
     "git-validator": "^0.6.0",
     "typescript": "^5.1.6"
   }
