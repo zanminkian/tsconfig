@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.6.0
+
+### Minor Changes
+
+- d3d0b51: feat: support esm
+
 ## 0.5.1
 
 ### Patch Changes
