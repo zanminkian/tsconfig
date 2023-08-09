@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.7.1
+
+### Patch Changes
+
+- eab6d73: fix: remove `sourceMap` option as it conflict with `inlineSourceMap`
+
 ## 0.7.0
 
 ### Minor Changes
