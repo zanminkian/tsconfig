@@ -49,6 +49,7 @@ Here are the best practices if you are using this package.
 ├── test
 │   └── index.spec.ts
 ├── package.json
+├── tsconfig.build.json
 └── tsconfig.json
 ```
 
@@ -56,7 +57,15 @@ Here are the best practices if you are using this package.
 
 ```json
 {
-  "extends": "@zanminkian/tsconfig",
+  "extends": "@zanminkian/tsconfig"
+}
+```
+
+#### tsconfig.build.json
+
+```json
+{
+  "extends": "./tsconfig",
   "include": ["src"],
   "exclude": ["**/*.spec.ts"],
   "compilerOptions": {
@@ -75,14 +84,14 @@ Here are the best practices if you are using this package.
 │   │   ├── test
 │   │   │   └── main.spec.ts
 │   │   ├── package.json
-│   │   └── tsconfig.json
+│   │   └── tsconfig.build.json
 │   └── app2
 │       ├── src
 │       │   └── main.ts
 │       ├── test
 │       │   └── main.spec.ts
 │       ├── package.json
-│       └── tsconfig.json
+│       └── tsconfig.build.json
 ├── package.json
 └── tsconfig.json
 ```
@@ -95,7 +104,7 @@ Here are the best practices if you are using this package.
 }
 ```
 
-#### tsconfig.json in each app
+#### tsconfig.build.json in each app
 
 ```json
 {
