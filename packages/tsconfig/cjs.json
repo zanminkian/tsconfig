@@ -28,7 +28,6 @@
     "stripInternal": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
     "inlineSourceMap": true,
     "isolatedModules": true,
     "jsx": "preserve"
