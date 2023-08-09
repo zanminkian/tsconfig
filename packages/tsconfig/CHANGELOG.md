@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.7.0
+
+### Minor Changes
+
+- e131a14: feat: enable `stripInternal` and `declarationMap`
+
 ## 0.6.0
 
 ### Minor Changes
