@@ -11,14 +11,14 @@
   "scripts": {
     "postinstall": "git-validator install",
     "style": "git-validator",
-    "style:apply": "git-validator -wf",
+    "style:apply": "git-validator -a",
     "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "@types/node": "^20.4.8",
+    "@types/node": "^20.5.0",
     "@zanminkian/tsconfig": "workspace:^",
-    "git-validator": "^0.6.0",
+    "git-validator": "^0.7.0",
     "typescript": "^5.1.6"
   }
 }
