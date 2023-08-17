@@ -12,7 +12,7 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "checkJs": true,
+    "checkJs": false, // Don't check js for better experience. User can add `// @ts-check` on the top of js file to check it manually.
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
