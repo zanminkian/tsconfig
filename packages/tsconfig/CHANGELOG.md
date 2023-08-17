@@ -1,5 +1,16 @@
 # @zanminkian/tsconfig
 
+## 0.8.0
+
+### Minor Changes
+
+- 75d03d2: feat: do not check js
+- 125c509: feat: outDir to be `dist`
+
+### Patch Changes
+
+- e757280: feat: allow js
+
 ## 0.7.1
 
 ### Patch Changes
