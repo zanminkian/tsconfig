@@ -1,5 +1,11 @@
 # @zanminkian/tsconfig
 
+## 0.8.1
+
+### Patch Changes
+
+- 7ca9852: feat: support to exclude js test file in initial template
+
 ## 0.8.0
 
 ### Minor Changes
