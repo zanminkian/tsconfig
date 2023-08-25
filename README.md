@@ -25,8 +25,20 @@ Strict shared tsconfig out-of-box.
 
 ### Install
 
-```bash
+```sh
 npm i @zanminkian/tsconfig -D
+```
+
+For node project, you may need to install `@types/node` additionally.
+
+```sh
+npm i @types/node -D
+```
+
+For frontend project (like React), you may need to install `@types/web` additionally.
+
+```sh
+npm i @types/web -D
 ```
 
 ### Config `tsconfig.json`
