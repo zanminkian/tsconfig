@@ -1,12 +1,12 @@
 # @zanminkian/tsconfig
 
+Strict shared tsconfig out-of-box
+
 [![](https://img.shields.io/npm/l/@zanminkian/tsconfig.svg)](https://github.com/zanminkian/tsconfig/blob/main/LICENSE)
 [![](https://img.shields.io/npm/v/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 [![](https://img.shields.io/npm/dm/@zanminkian/tsconfig.svg)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 [![](https://img.shields.io/librariesio/release/npm/@zanminkian/tsconfig)](https://www.npmjs.com/package/@zanminkian/tsconfig)
 [![](https://packagephobia.com/badge?p=@zanminkian/tsconfig)](https://packagephobia.com/result?p=@zanminkian/tsconfig)
-
-Strict shared tsconfig out-of-box.
 
 ## Feature
 
