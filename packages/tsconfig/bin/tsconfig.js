@@ -20,10 +20,14 @@ program
   .description("init a tsconfig file")
   .option("-p, --path <path>", "directory path to generate file to", ".")
   .option("-n, --name <filename>", "tsconfig file name", "tsconfig.json")
-  .action(({ path, name }) => {
+  .option("-f, --force", "forcefully overwrite existing file")
+  .action(({ path, name, force }) => {
     const fullName = resolve(process.cwd(), path, name);
-    if (fs.existsSync(fullName)) throw new Error(`${fullName} is already existing!`);
-    else fs.writeFileSync(fullName, generatingTsconfigContent);
+    if (!fs.existsSync(fullName) || force) fs.writeFileSync(fullName, generatingTsconfigContent);
+    else
+      throw new Error(
+        `${fullName} is already existing! You can apply --force option to overwrite it.`,
+      );
   });
 
 program.parse();
