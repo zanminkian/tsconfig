@@ -1,5 +1,17 @@
 # @zanminkian/tsconfig
 
+## 0.9.0
+
+### Minor Changes
+
+- 574498f: feat: enable `allowArbitraryExtensions` option
+- 740bd33: feat: required ts5.0+
+- 1f714dc: refactor: rename cli options
+
+### Patch Changes
+
+- c5552f8: feat: support `--force` cli option
+
 ## 0.8.1
 
 ### Patch Changes
