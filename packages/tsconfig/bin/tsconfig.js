@@ -18,10 +18,10 @@ program.name("tsconfig");
 program
   .command("init")
   .description("init a tsconfig file")
-  .option("-t, --to <path>", "directory that generating to", ".")
+  .option("-p, --path <path>", "directory path to generate file to", ".")
   .option("-n, --name <filename>", "tsconfig file name", "tsconfig.json")
-  .action(({ to, name }) => {
-    const fullName = resolve(process.cwd(), to, name);
+  .action(({ path, name }) => {
+    const fullName = resolve(process.cwd(), path, name);
     if (fs.existsSync(fullName)) throw new Error(`${fullName} is already existing!`);
     else fs.writeFileSync(fullName, generatingTsconfigContent);
   });
